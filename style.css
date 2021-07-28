@@ -1,0 +1,96 @@
+/* .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+.aside {
+  background-color: rgb(255, 254, 254);
+  padding-left: 4%;
+  padding-top: 150px;
+}
+
+.menu {
+  max-width: 300px;
+  border: solid rgb(206, 206, 206);
+  border-width: 0px 0px 1px 0px;
+  padding-top: 20px;
+  font-size: 18px;
+  color: rgba(56, 56, 68, 0.842);
+
+}
+
+a {
+  text-decoration: none;
+  color: rgba(56, 56, 68, 0.801);
+  cursor: pointer;
+
+}
+
+.main {
+  background-color: rgba(56, 56, 68, 0.801);
+  min-height: 100000px
+}
+
+img {
+  max-height: 280px;
+  border-radius: 100%;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+
+
+
+h1 {
+  font-size: none;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: none;
+  font-size: 38px;
+}
+
+.representation {
+  margin-top: 250px;
+  color: aliceblue;
+  font-family: 'Festive', cursive;
+  font-size: 50px;
+
+}
+
+.search-container {
+  margin-top: 100px;
+  direction: none;
+  border: solid rgb(206, 206, 206);
+  border-width: 0px 0px 1px 0px;
+  max-width: 300px;
+}
+
+button {
+  border: none;
+  padding-bottom: 8px;
+  background: none;
+
+}
+
+input {
+  border: none;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.socialNetworks {
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+.socialNetworks a {
+  margin-left: 7px;
+  margin-right: 7px;
+
+}
+
