@@ -9,6 +9,8 @@
   background-color: rgb(255, 254, 254);
   padding-left: 4%;
   padding-top: 150px;
+  position: fixed;
+  text-decoration: none;
 }
 
 .menu {
@@ -30,7 +32,8 @@ a {
 
 .main {
   background-color: rgba(56, 56, 68, 0.801);
-  min-height: 100000px
+  min-height: 900px;
+  margin-left: 470px;
 }
 
 img {
@@ -94,3 +97,105 @@ input {
 
 }
 
+#About {
+  background-color: rgba(248, 248, 248, 0.801);
+  min-height: 900px;
+  margin-left: 470px;
+}
+.text-home {
+  padding-left: 38px;
+  padding-top: 130px;
+  padding-right: 30px;
+}
+.my-info {
+  
+}
+
+.box-item-bir {
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 250px;
+}
+.box-item-age {
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 140px;
+}
+.box-item-loc { 
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 230px;
+}
+.box-item-in {
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 200px;
+}
+.box-item-mail {
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 320px;
+}
+.box-item-phone {
+  border: 3px  solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
+  max-width: 310px;
+}
+
+.sign {
+  color:black;
+  font-size: 25px;
+  
+}
+
+.dash {
+  color: blueviolet;
+  font-size: 25px;
+  font-family: 'Source Code Pro', monospace;
+  
+}
+
+.sign-content { 
+  color: rgba(56, 56, 68, 0.842);
+  font-size: 20px;
+  font-family: 'Grechen Fuemen', cursive;
+font-family: 'Raleway', sans-serif;
+
+}
+h2 {
+  font-family: 'Grechen Fuemen', cursive;
+  color: rgb(55, 21, 87);
+}
+#aboutMe {
+  font-family: 'Grechen Fuemen', cursive;
+   font-family: 'Raleway', sans-serif;
+  color: rgb(53, 52, 54);
+ font-size: 20px;
+}
+.cvv {
+  margin-left: 100px;
+}
