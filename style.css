@@ -1,10 +1,42 @@
-/* .container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
+a {
+  text-decoration: none;
+  color: rgba(56, 56, 68, 0.801);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-height: 280px;
+  border-radius: 100%;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+h1 {
+  font-size: none;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: none;
+  font-size: 38px;
+}
+
+button {
+  border: none;
+  padding-bottom: 8px;
+  background: none;
+}
+
+input {
+  border: none;
+  padding-bottom: 8px;
+  outline: none;
+}
+
 .aside {
   background-color: rgb(255, 254, 254);
   padding-left: 4%;
@@ -20,14 +52,6 @@
   padding-top: 20px;
   font-size: 18px;
   color: rgba(56, 56, 68, 0.842);
-
-}
-
-a {
-  text-decoration: none;
-  color: rgba(56, 56, 68, 0.801);
-  cursor: pointer;
-
 }
 
 .main {
@@ -36,32 +60,11 @@ a {
   margin-left: 470px;
 }
 
-img {
-  max-height: 280px;
-  border-radius: 100%;
-  margin-top: 150px;
-  margin-left: 15px;
-}
-
-
-
-
-h1 {
-  font-size: none;
-  font-size: 60px;
-}
-
-h3 {
-  font-size: none;
-  font-size: 38px;
-}
-
 .representation {
   margin-top: 250px;
   color: aliceblue;
   font-family: 'Festive', cursive;
   font-size: 50px;
-
 }
 
 .search-container {
@@ -70,19 +73,6 @@ h3 {
   border: solid rgb(206, 206, 206);
   border-width: 0px 0px 1px 0px;
   max-width: 300px;
-}
-
-button {
-  border: none;
-  padding-bottom: 8px;
-  background: none;
-
-}
-
-input {
-  border: none;
-  padding-bottom: 8px;
-  outline: none;
 }
 
 .socialNetworks {
@@ -94,108 +84,106 @@ input {
 .socialNetworks a {
   margin-left: 7px;
   margin-right: 7px;
-
 }
 
-#About {
+#about {
   background-color: rgba(248, 248, 248, 0.801);
   min-height: 900px;
   margin-left: 470px;
 }
+
 .text-home {
   padding-left: 38px;
   padding-top: 130px;
   padding-right: 30px;
 }
-.my-info {
-  
+
+.box-item {
+  border: 3px solid;
+  border-color: rgb(88, 57, 93);
+  padding: 10px;
+  margin-right: 200px;
+  margin-left: 100px;
+  background-color: rgb(234, 223, 245);
 }
 
 .box-item-bir {
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
   max-width: 250px;
 }
+
 .box-item-age {
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
   max-width: 140px;
 }
-.box-item-loc { 
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
+
+.box-item-loc {
   max-width: 230px;
 }
+
 .box-item-in {
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
   max-width: 200px;
 }
+
 .box-item-mail {
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
   max-width: 320px;
 }
+
 .box-item-phone {
-  border: 3px  solid;
-  border-color: rgb(88, 57, 93);
-  padding: 10px;
-  margin-right: 200px;
-  margin-left: 100px;
-  background-color: rgb(234, 223, 245);
   max-width: 310px;
 }
 
 .sign {
-  color:black;
+  color: black;
   font-size: 25px;
-  
 }
 
 .dash {
   color: blueviolet;
   font-size: 25px;
   font-family: 'Source Code Pro', monospace;
-  
 }
 
-.sign-content { 
+.sign-content {
   color: rgba(56, 56, 68, 0.842);
   font-size: 20px;
   font-family: 'Grechen Fuemen', cursive;
-font-family: 'Raleway', sans-serif;
-
+  font-family: 'Raleway', sans-serif;
 }
+
 h2 {
   font-family: 'Grechen Fuemen', cursive;
   color: rgb(55, 21, 87);
 }
+
 #aboutMe {
   font-family: 'Grechen Fuemen', cursive;
-   font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgb(53, 52, 54);
- font-size: 20px;
+  font-size: 20px;
 }
+
 .cvv {
   margin-left: 100px;
+}
+
+.download-button {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 14px 7px;
+  color: #ffffff;
+  background: #89718f;
+  border-radius: 0px;
+  border: 2px solid #292136;
+}
+
+.download-button:hover {
+  background: #9b28b8;
+  color: #b1bfc9;
+  border: 2px solid #562566;
+  transition: all 0.4s ease;
+}
+
+.my-info {
+  display: inline-flex;
 }
